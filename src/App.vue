@@ -9,7 +9,38 @@ export default {
   },
   data() {
     return {
-
+      nav: [
+        {
+          id: 1,
+          text: 'Home',
+          href: '#'
+        },
+        {
+          id: 2,
+          text: 'Pages',
+          href: '#'
+        },
+        {
+          id: 3,
+          text: 'Courses',
+          href: '#'
+        },
+        {
+          id: 4,
+          text: 'Features',
+          href: '#'
+        },
+        {
+          id: 5,
+          text: 'Blog',
+          href: '#'
+        },
+        {
+          id: 6,
+          text: 'Shop',
+          href: '#'
+        },
+      ]
     }
   }
 
@@ -18,11 +49,11 @@ export default {
 
 <template>
   <div>
+    <AppHeader :menu="nav" />
 
   </div>
 </template>
 
 <style lang="scss">
-@use 'bootstrap';
 @use './styles/general';
 </style>
