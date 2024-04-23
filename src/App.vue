@@ -1,11 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppHero from './components/AppHero.vue';
 
 export default {
   components: {
     AppHeader,
     AppFooter,
+    AppHero,
   },
   data() {
     return {
@@ -104,6 +106,7 @@ export default {
 <template>
   <div>
     <AppHeader :menu="nav" />
+    <AppHero />
     <AppFooter :exploreMenu="explore" :infoMenu="info" />
   </div>
 </template>

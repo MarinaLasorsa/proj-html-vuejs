@@ -40,7 +40,7 @@ export default {
 
 .row li {
     padding: 0 20px;
-    font-size: 15px;
+
 }
 
 .search-bar {

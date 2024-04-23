@@ -1,0 +1,15 @@
+@mixin input-bar {
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    line-height: 40px;
+    padding: 0 15px;
+}
+
+@mixin brand-button {
+    background-color: #20AD96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    line-height: 30px;
+}
