@@ -20,8 +20,16 @@
                 </div>
 
                 <div class="col-6">
-                    <img src="../../about-me-profile.jpg" />
+                    <img src="../../about-me-profile.jpg" class="hero-img" />
                 </div>
+            </div>
+            <div class="client-logos">
+                <img src="../../client-logo-01.png" />
+                <img src="../../client-logo-02.png" />
+                <img src="../../client-logo-03.png" />
+                <img src="../../client-logo-04.png" />
+                <img src="../../client-logo-05.png" />
+                <img src="../../client-logo-06.png" />
             </div>
         </div>
     </section>
@@ -38,7 +46,7 @@ export default {
 .page-hero {
     padding: 40px 0;
 
-    img {
+    .hero-img {
         border-radius: 50%;
     }
 
@@ -54,6 +62,20 @@ export default {
         margin-top: 20px;
         margin-bottom: 25px;
     }
+
+    .client-logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+
+.big-title {
+    font-size: 40px;
+    color: #3f3a64;
+    font-weight: bold;
+    line-height: 43px;
 }
 
 .download-button {

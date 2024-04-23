@@ -13,3 +13,17 @@
     border-radius: 5px;
     line-height: 30px;
 }
+
+@mixin big-title {
+    font-size: 40px;
+    color: #3f3a64;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+@mixin small-title {
+    font-size: 20px;
+    color: #3f3a64;
+    font-weight: bold;
+    line-height: 30px;
+}
