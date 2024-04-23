@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppHero from './components/AppHero.vue';
 import CourseSection from './components/CourseSection.vue';
+import TutoringSection from './components/TutoringSection.vue'
 
 export default {
   components: {
@@ -10,6 +11,7 @@ export default {
     AppFooter,
     AppHero,
     CourseSection,
+    TutoringSection,
   },
   data() {
     return {
@@ -110,6 +112,7 @@ export default {
     <AppHeader :menu="nav" />
     <AppHero />
     <CourseSection />
+    <TutoringSection />
     <AppFooter :exploreMenu="explore" :infoMenu="info" />
   </div>
 </template>

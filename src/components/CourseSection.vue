@@ -13,6 +13,9 @@
                     <CourseCard :course="course" />
                 </ul>
             </div>
+            <div class="text-align-center">
+                <button type="button" class="courses-button">View all courses &#8594;</button>
+            </div>
         </div>
     </section>
 </template>
@@ -94,5 +97,16 @@ export default {
     color: #3F3A64;
     font-size: 30px;
 
+}
+
+.courses-button {
+    background-color: #20AD96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    line-height: 45px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 250px;
 }
 </style>
