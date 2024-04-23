@@ -40,6 +40,60 @@ export default {
           text: 'Shop',
           href: '#'
         },
+      ],
+      explore: [
+        {
+          id: 1,
+          text: 'Start here',
+          href: '#'
+        },
+        {
+          id: 2,
+          text: 'Blog',
+          href: '#'
+        },
+        {
+          id: 3,
+          text: 'About us',
+          href: '#'
+        },
+        {
+          id: 4,
+          text: 'Success story',
+          href: '#'
+        },
+        {
+          id: 5,
+          text: 'Courses',
+          href: '#'
+        },
+        {
+          id: 6,
+          text: 'Contact us',
+          href: '#'
+        }
+      ],
+      info: [
+        {
+          id: 1,
+          text: 'Membership',
+          href: '#'
+        },
+        {
+          id: 2,
+          text: 'Purchase guide',
+          href: '#'
+        },
+        {
+          id: 3,
+          text: 'Privacy policy',
+          href: '#'
+        },
+        {
+          id: 4,
+          text: 'Terms of services',
+          href: '#'
+        },
       ]
     }
   }
@@ -50,7 +104,7 @@ export default {
 <template>
   <div>
     <AppHeader :menu="nav" />
-
+    <AppFooter :exploreMenu="explore" :infoMenu="info" />
   </div>
 </template>
 
