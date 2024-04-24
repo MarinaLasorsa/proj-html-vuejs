@@ -10,13 +10,14 @@ import {
     faMagnifyingGlass,
     faAngleDown,
     faDownload,
+    faCircle,
 } from '@fortawesome/free-solid-svg-icons'
 import {
     faCircleUser,
     faUser,
     faFileLines,
     faCalendar,
-    faEye
+    faEye,
 } from '@fortawesome/free-regular-svg-icons'
 import {
     faSquareFacebook,
@@ -25,7 +26,7 @@ import {
     faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faMagnifyingGlass, faAngleDown, faDownload, faCircleUser, faUser, faFileLines, faCalendar, faEye, faSquareFacebook, faTwitter, faInstagram, faLinkedin);
+library.add(faMagnifyingGlass, faAngleDown, faDownload, faCircleUser, faUser, faFileLines, faCalendar, faEye, faSquareFacebook, faTwitter, faInstagram, faLinkedin, faCircle);
 
 const app = createApp(App)
 

@@ -5,6 +5,7 @@ import AppHero from './components/AppHero.vue';
 import CourseSection from './components/CourseSection.vue';
 import TutoringSection from './components/TutoringSection.vue';
 import VideoSection from './components/VideoSection.vue';
+import TestimonialSection from './components/TestimonialSection.vue';
 
 export default {
   components: {
@@ -14,6 +15,7 @@ export default {
     CourseSection,
     TutoringSection,
     VideoSection,
+    TestimonialSection,
   },
   data() {
     return {
@@ -173,6 +175,7 @@ export default {
     <CourseSection />
     <TutoringSection />
     <VideoSection />
+    <TestimonialSection />
     <AppFooter :exploreMenu="explore" :infoMenu="info" />
   </div>
 </template>
