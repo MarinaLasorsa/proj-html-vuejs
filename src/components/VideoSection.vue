@@ -10,8 +10,9 @@
                     <p class="medium-font light-purple-font">GET STARTED <span
                             class="dark-purple-font"><strong>EFFORTLESSLY</strong></span></p>
                     <h1 class="big-title">Enjoy our <span class="title-highlight">Companionship</span></h1>
-                    <p class="light-purple-font">Sneak peek into what has in store for you on our online teaching and
-                        mentoring portal. Seek for some hidden hints of early-bird rewards as well.</p>
+                    <p class="light-purple-font medium-font">Sneak peek into what has in store for you on our online
+                        teaching and mentoring portal. Seek for some hidden hints of early-bird rewards as well.
+                    </p>
                     <p class="link">Download free guidebook &#8594;</p>
                 </div>
             </div>

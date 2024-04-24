@@ -53,8 +53,12 @@ export default {
         font-weight: bold;
         display: inline-block;
         margin-top: 15px;
-    }
 
+        &:hover {
+            color: #20AD96;
+            text-decoration: underline solid #20AD96;
+        }
+    }
 }
 
 .section-title {

@@ -103,6 +103,7 @@ export default {
     overflow: hidden;
     margin-top: 30px;
     margin-left: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     img {
         width: 100%;

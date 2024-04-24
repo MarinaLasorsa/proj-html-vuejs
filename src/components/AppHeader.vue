@@ -5,7 +5,7 @@
                 <img class="main-logo" src="../../dark-logo.png" alt="MaxCoach logo" />
                 <nav class="row align-center">
                     <ul class="row">
-                        <li v-for="el in menu" :key="el.id" class="px-3" :class="[el.text === 'Pages' ? 'dropdown' : ''
+                        <li v-for="el in menu" :key="el.id" :class="[el.text === 'Pages' ? 'dropdown' : ''
                         ]">{{
                             el.text }} <font-awesome-icon :icon="['fas', 'angle-down']" />
                             <div class="dropdown-content">
@@ -14,7 +14,7 @@
                             </div>
                         </li>
                     </ul>
-                    <font-awesome-icon :icon="['far', 'circle-user']" />
+                    <font-awesome-icon :icon="['far', 'circle-user']" class="user-icon" />
                     <div class="search-bar">
                         <input type="text" name="search" placeholder="Search..." />
                         <font-awesome-icon :icon="['fas', 'magnifying-glass']" class="search-icon" />
@@ -45,7 +45,7 @@ export default {
 
 .row li {
     padding: 20px 20px;
-
+    color: #404040;
 }
 
 .dropdown {
@@ -83,6 +83,10 @@ export default {
     &:hover {
         color: #20AD96;
     }
+}
+
+.user-icon {
+    color: #404040;
 }
 
 .search-bar {

@@ -65,6 +65,8 @@
             </h3>
             <h2 class="section-title">You can be your own guiding star with our help!</h2>
             <button type="button" class="brand-button">Get started now</button>
+            <img src="../../maxcoach-shape-02.png" class="shape sh-circle" />
+            <img src="../../maxcoach-shape-01.png" class="shape sh-lines" />
         </div>
     </section>
 </template>
@@ -148,6 +150,7 @@ export default {
 
 .certif-section {
     padding: 30px 0;
+    position: relative;
 }
 
 .medium-title {
@@ -168,5 +171,19 @@ export default {
     &:hover {
         background-color: #3f3a64;
     }
+}
+
+.shape {
+    position: absolute;
+}
+
+.sh-circle {
+    right: 180px;
+    bottom: 0;
+}
+
+.sh-lines {
+    left: 220px;
+    bottom: 80px;
 }
 </style>
