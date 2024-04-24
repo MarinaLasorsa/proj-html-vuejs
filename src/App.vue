@@ -7,6 +7,7 @@ import TutoringSection from './components/TutoringSection.vue';
 import VideoSection from './components/VideoSection.vue';
 import TestimonialSection from './components/TestimonialSection.vue';
 import NumbersSection from './components/NumbersSection.vue';
+import BlogSection from './components/BlogSection.vue';
 
 export default {
   components: {
@@ -18,6 +19,7 @@ export default {
     VideoSection,
     TestimonialSection,
     NumbersSection,
+    BlogSection,
   },
   data() {
     return {
@@ -179,6 +181,7 @@ export default {
     <VideoSection />
     <TestimonialSection />
     <NumbersSection />
+    <BlogSection />
     <AppFooter :exploreMenu="explore" :infoMenu="info" />
   </div>
 </template>

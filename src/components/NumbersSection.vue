@@ -18,7 +18,7 @@
                     <p class="light-purple-font small-font"><strong>LOCAL BRANCHES</strong></p>
                 </div>
                 <div class="col-3 number-card text-align-center">
-                    <h3 class="dark-purple-font medium-title">Getting Featured on</h3>
+                    <h3 class="dark-purple-font medium-title">Getting <br> Featured on</h3>
                     <h1 class="teal-font number-title">1090</h1>
                     <p class="light-purple-font small-font"><strong>BLOG POSTS</strong></p>
                 </div>
