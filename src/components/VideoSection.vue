@@ -110,7 +110,7 @@ export default {
 
 .sh-square {
     right: 530px;
-    bottom: 25px;
-    width: 160px;
+    bottom: 20px;
+    width: 150px;
 }
 </style>
