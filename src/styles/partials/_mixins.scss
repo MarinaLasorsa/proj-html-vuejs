@@ -17,10 +17,10 @@
 }
 
 @mixin big-title {
-    font-size: 40px;
+    font-size: 45px;
     color: #3f3a64;
     font-weight: bold;
-    line-height: 43px;
+    line-height: 47px;
 }
 
 @mixin small-title {
@@ -35,4 +35,9 @@
     color: #20AD96;
     text-decoration: underline #B1B1B1;
     cursor: pointer;
+}
+
+@mixin title-highlight {
+    color: #20AD96;
+    font-weight: lighter;
 }

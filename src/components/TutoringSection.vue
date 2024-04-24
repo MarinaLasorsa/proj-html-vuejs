@@ -47,7 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 .tutoring-section {
-    padding: 80px 0;
+    padding-top: 80px;
 
     a {
         font-weight: bold;

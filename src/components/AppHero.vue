@@ -105,10 +105,10 @@ export default {
 }
 
 .big-title {
-    font-size: 40px;
+    font-size: 45px;
     color: #3f3a64;
     font-weight: bold;
-    line-height: 43px;
+    line-height: 47px;
 }
 
 .download-button {
