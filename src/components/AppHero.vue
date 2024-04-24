@@ -14,7 +14,7 @@
                             Download free guide
                         </button>
                         <p class="light-purple-font small-font">Have questions?
-                            <span class="teal-font"><strong>Get free sample &#8594;</strong></span>
+                            <span class="link">Get free sample &#8594;</span>
                         </p>
                     </div>
                 </div>
@@ -86,6 +86,17 @@ export default {
     line-height: 45px;
     width: 250px;
     font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3f3a64;
+    }
+}
+
+.link {
+    font-weight: bold;
+    color: #20AD96;
+    text-decoration: underline #B1B1B1;
     cursor: pointer;
 }
 </style>

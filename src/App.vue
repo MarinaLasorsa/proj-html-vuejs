@@ -47,6 +47,63 @@ export default {
           href: '#'
         },
       ],
+      pages: [
+        {
+          id: 1,
+          text: 'Start here',
+          href: '#'
+        },
+        {
+          id: 2,
+          text: 'Success Story',
+          href: '#'
+        },
+        {
+          id: 3,
+          text: 'About me',
+          href: '#'
+        },
+        {
+          id: 4,
+          text: 'About us 01',
+          href: '#'
+        },
+        {
+          id: 5,
+          text: 'About us 02',
+          href: '#'
+        },
+        {
+          id: 6,
+          text: 'About us 03',
+          href: '#'
+        },
+        {
+          id: 7,
+          text: 'Contact me',
+          href: '#'
+        },
+        {
+          id: 8,
+          text: 'Contact us',
+          href: '#'
+        },
+        {
+          id: 9,
+          text: 'Purchase guide',
+          href: '#'
+        },
+        {
+          id: 10,
+          text: 'Privacy Policy',
+          href: '#'
+        },
+        {
+          id: 11,
+          text: 'Terms of Service',
+          href: '#'
+        },
+      ],
       explore: [
         {
           id: 1,
@@ -109,7 +166,7 @@ export default {
 
 <template>
   <div>
-    <AppHeader :menu="nav" />
+    <AppHeader :menu="nav" :pagesMenu="pages" />
     <AppHero />
     <CourseSection />
     <TutoringSection />

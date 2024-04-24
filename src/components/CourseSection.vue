@@ -96,7 +96,7 @@ export default {
 .section-title {
     color: #3F3A64;
     font-size: 30px;
-
+    margin-bottom: 20px;
 }
 
 .courses-button {

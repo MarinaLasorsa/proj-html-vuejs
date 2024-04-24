@@ -29,3 +29,10 @@
     font-weight: bold;
     line-height: 30px;
 }
+
+@mixin link {
+    font-weight: bold;
+    color: #20AD96;
+    text-decoration: underline #B1B1B1;
+    cursor: pointer;
+}

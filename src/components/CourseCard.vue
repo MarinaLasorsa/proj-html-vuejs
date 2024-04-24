@@ -35,7 +35,16 @@ export default {
 
 <style lang="scss" scoped>
 .course-card {
-    padding: 40px 20px;
+    padding: 20px 20px;
+
+    &:hover {
+        background-color: white;
+        border-radius: 5px;
+    }
+}
+
+.course-card:hover .small-title {
+    color: #20AD96;
 }
 
 .wrapper {

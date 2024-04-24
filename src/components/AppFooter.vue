@@ -74,6 +74,14 @@ export default {
 
 .social-icon {
     height: 27px;
+
+    &:hover {
+        color: #20AD96;
+    }
+}
+
+ul .small-font:hover {
+    color: #20AD96;
 }
 
 .copyright {
