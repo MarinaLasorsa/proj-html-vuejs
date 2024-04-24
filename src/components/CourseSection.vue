@@ -91,6 +91,10 @@ export default {
 .courses-section {
     background-color: #F5F7FA;
     padding: 80px 0;
+
+    .row {
+        margin-bottom: 20px;
+    }
 }
 
 .section-title {
@@ -108,5 +112,9 @@ export default {
     font-weight: bold;
     cursor: pointer;
     width: 250px;
+
+    &:hover {
+        background-color: #3f3a64;
+    }
 }
 </style>

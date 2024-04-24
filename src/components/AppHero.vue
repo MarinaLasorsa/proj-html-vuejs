@@ -32,6 +32,10 @@
                 <img src="../../client-logo-06.png" />
             </div>
         </div>
+        <img src="../../maxcoach-shape-02.png" class="shape sh-circle" />
+        <img src="../../maxcoach-shape-07.png" class="shape sh-square" />
+        <img src="../../maxcoach-shape-08.png" class="shape sh-rectangle-top" />
+        <img src="../../maxcoach-shape-08.png" class="shape sh-rectangle-bottom" />
     </section>
 </template>
 
@@ -44,7 +48,8 @@ export default {
 
 <style lang="scss" scoped>
 .page-hero {
-    padding: 40px 0;
+    padding: 45px 0;
+    position: relative;
 
     .hero-img {
         border-radius: 50%;
@@ -69,6 +74,34 @@ export default {
         justify-content: space-between;
         margin-top: 20px;
     }
+}
+
+.shape {
+    position: absolute;
+    z-index: -1;
+}
+
+.sh-circle {
+    right: 110px;
+    top: 150px;
+    width: 120px;
+}
+
+.sh-square {
+    right: 280px;
+    bottom: 160px;
+}
+
+.sh-rectangle-top {
+    right: 630px;
+    top: 180px;
+    height: 120px;
+}
+
+.sh-rectangle-bottom {
+    right: 630px;
+    top: 315px;
+    height: 120px;
 }
 
 .big-title {
