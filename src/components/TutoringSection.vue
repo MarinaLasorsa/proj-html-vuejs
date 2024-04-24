@@ -10,7 +10,7 @@
                 <div class="col-4">
                     <div class="benefit-card">
                         <img src="../../image-box-01.png" />
-                        <h3 class="benefit-title">Customize Preferences</h3>
+                        <h3 class="medium-title">Customize Preferences</h3>
                         <p class="light-purple-font">Learners are given the right to arrange and customize their study
                             schedule and timetable based on preferences.</p>
                         <a href="#" class="light-purple-font">Start here &#8594;</a>
@@ -19,7 +19,7 @@
                 <div class="col-4">
                     <div class="benefit-card">
                         <img src="../../image-box-02.png" />
-                        <h3 class="benefit-title">Cloud Storage</h3>
+                        <h3 class="medium-title">Cloud Storage</h3>
                         <p class="light-purple-font">You can store online lessons via online cloud or download to your
                             device and revise lessons on the way.</p>
                         <a href="#" class="light-purple-font">Get Free Quote &#8594;</a>
@@ -28,7 +28,7 @@
                 <div class="col-4">
                     <div class="benefit-card">
                         <img src="../../image-box-03.png" />
-                        <h3 class="benefit-title">Multimedia Channels</h3>
+                        <h3 class="medium-title">Multimedia Channels</h3>
                         <p class="light-purple-font">We provide study materials with various formats: video, audio,
                             slides, doc, prints, books and applications.</p>
                         <a href="#" class="light-purple-font">Start now &#8594;</a>
@@ -72,7 +72,7 @@ export default {
     padding: 0 30px;
 }
 
-.benefit-title {
+.medium-title {
     color: #3F3A64;
     margin: 15px 0;
     font-size: 22px;

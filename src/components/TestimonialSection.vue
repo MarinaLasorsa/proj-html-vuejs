@@ -60,6 +60,12 @@
             </div>
             <div class="small-dot"><font-awesome-icon :icon="['fas', 'circle']" /></div>
         </div>
+        <div class="text-align-center certif-section">
+            <h3 class="medium-title">Start today for getting <span class="title-highlight">Online Certification</span>
+            </h3>
+            <h2 class="section-title">You can be your own guiding star with our help!</h2>
+            <button type="button" class="brand-button">Get started now</button>
+        </div>
     </section>
 </template>
 
@@ -138,5 +144,29 @@ export default {
     font-size: 10px;
     color: #8C89A2;
     padding: 40px 10px;
+}
+
+.certif-section {
+    padding: 30px 0;
+}
+
+.medium-title {
+    color: #3F3A64;
+    font-size: 22px;
+}
+
+.brand-button {
+    background-color: #20AD96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    line-height: 45px;
+    font-weight: bold;
+    width: 250px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3f3a64;
+    }
 }
 </style>

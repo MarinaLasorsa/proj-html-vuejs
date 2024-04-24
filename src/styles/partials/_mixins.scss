@@ -13,6 +13,7 @@
     border-radius: 5px;
     line-height: 45px;
     font-weight: bold;
+    width: 250px;
     cursor: pointer;
 }
 
@@ -21,6 +22,11 @@
     color: #3f3a64;
     font-weight: bold;
     line-height: 47px;
+}
+
+@mixin medium-title {
+    color: #3F3A64;
+    font-size: 22px;
 }
 
 @mixin small-title {

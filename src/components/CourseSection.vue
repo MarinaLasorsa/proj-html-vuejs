@@ -14,7 +14,7 @@
                 </ul>
             </div>
             <div class="text-align-center">
-                <button type="button" class="courses-button">View all courses &#8594;</button>
+                <button type="button" class="brand-button">View all courses &#8594;</button>
             </div>
         </div>
     </section>
@@ -103,7 +103,7 @@ export default {
     margin-bottom: 20px;
 }
 
-.courses-button {
+.brand-button {
     background-color: #20AD96;
     color: white;
     border: none;

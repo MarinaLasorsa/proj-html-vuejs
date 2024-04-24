@@ -10,7 +10,7 @@
                             stop. Stop searching,
                             enjoy the process.
                         </p>
-                        <button type="button" class="download-button"><font-awesome-icon :icon="['fas', 'download']" />
+                        <button type="button" class="brand-button"><font-awesome-icon :icon="['fas', 'download']" />
                             Download free guide
                         </button>
                         <p class="light-purple-font small-font">Have questions?
@@ -111,7 +111,7 @@ export default {
     line-height: 47px;
 }
 
-.download-button {
+.brand-button {
     background-color: #20AD96;
     color: white;
     border: none;
